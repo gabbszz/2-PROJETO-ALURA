@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #223021;
+    color: #333;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #f0ecec;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.passo {
+    display: none;
+    padding: 20px;
+}
+
+.passo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #2b5221;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #a6bbd1;
+}
+
+button:focus {
+    outline: none;
+}
